@@ -37,6 +37,5 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('onlyme/', admin.site.urls),
-    path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
+
 ]
